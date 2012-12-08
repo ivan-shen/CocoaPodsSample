@@ -22,6 +22,7 @@
 		CECFD5A51673A6B2006048FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFD5841673A633006048FA /* CoreGraphics.framework */; };
 		CECFD5AB1673A6B2006048FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECFD5A91673A6B2006048FA /* InfoPlist.strings */; };
 		CECFD5AD1673A6B2006048FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFD5AC1673A6B2006048FA /* main.m */; };
+		CECFD5CB1673A83E006048FA /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFD5CA1673A83E006048FA /* MyTest.m */; };
 		F000CEE2644C49509A4F20E8 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8069F4191EB44D5889FB6C4F /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		CECFD5AA1673A6B2006048FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECFD5AC1673A6B2006048FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CECFD5AE1673A6B2006048FA /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		CECFD5C91673A83E006048FA /* MyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
+		CECFD5CA1673A83E006048FA /* MyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 		E0CFA3E7D5E24576BE428D37 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		F11CA6BB5416475D8C1F2192 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -137,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				CECFD5A71673A6B2006048FA /* Supporting Files */,
+				CECFD5C91673A83E006048FA /* MyTest.h */,
+				CECFD5CA1673A83E006048FA /* MyTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECFD5AD1673A6B2006048FA /* main.m in Sources */,
+				CECFD5CB1673A83E006048FA /* MyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
